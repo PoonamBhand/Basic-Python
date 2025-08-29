@@ -1,0 +1,5 @@
+# Q5: Reading from a file (file mode: 'r')
+file = open("sample.txt", "r")
+content = file.read()
+print("File Content:\n", content)
+file.close()
